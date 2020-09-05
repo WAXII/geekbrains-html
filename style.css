@@ -8,6 +8,11 @@
     max-height: 300px;
 }
 
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .main > a > img {
     max-height: 300px;
 }
@@ -181,6 +186,17 @@ form.contact button:hover {
     float: left;
 }
 
+.header > a {
+    display: block;
+    float: left;
+    margin-left: 50px;
+}
+
+.header > ul {
+    display: block;
+    float: right;
+}
+
 .header .logo {
     height: 100px;
 }
@@ -195,4 +211,41 @@ form.contact textarea {
 
 .product-page .main > a:hover {
     border: 1px solid #f8f8f8;
+}
+
+.footer {
+    height:100px;
+    text-align: right;
+    background-color: #eeeeee;
+    padding: 30px 50px;
+}
+
+.buy {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.buy button {
+    text-transform: uppercase;
+    font-size: 21px;
+    padding: 25px 40px;
+    border: 1px solid #aa0000;
+    border-radius: 20px;
+    font-weight: 600;
+    color: #aa0000;
+    background-color: #FFaaaa;
+    text-shadow: 1px 1px 0 #ffffff;
+}
+
+.buy button:hover {
+    border: 1px solid #00aa00;
+    color: #00aa00;
+    background-color: #aaffaa;
+}
+
+.buy button:focus {
+    border: 1px solid #0000aa;
+    color: #0000aa;
+    background-color: #aaaaff;
+    outline: none;
 }
