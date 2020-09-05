@@ -37,3 +37,31 @@
     width: 200px;
     height: 200px;
 }
+
+body {
+    background-color: #f8f8f8;
+}
+
+.mainmenu {
+    list-style: none;
+    overflow: hidden;
+}
+
+.mainmenu li {
+    float: left;
+    margin-right: 25px;
+}
+
+.mainmenu li a {
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px dotted #333333;
+    color: #333333;
+    text-decoration: none;
+}
+
+.mainmenu li a:hover {
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    text-decoration: none;
+}
