@@ -1,0 +1,39 @@
+.main {
+    overflow: hidden;
+}
+
+.main > a {
+    float: left;
+    display: inline-block;
+    max-height: 300px;
+}
+
+.main > a > img {
+    max-height: 300px;
+}
+
+.main > div {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.list {
+    overflow: hidden;
+    text-align: center;
+}
+.list .item {
+    display: inline-block;
+    width: 24%;
+}
+.list a {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+}
+
+.list a img {
+    width: 200px;
+    height: 200px;
+}
