@@ -127,6 +127,7 @@ form.contact {
     text-align: center;
 }
 
+form.contact textarea,
 form.contact input {
     display: block;
     width: 90%;
@@ -139,6 +140,7 @@ form.contact input {
     margin: 3px auto 10px auto;
 }
 
+form.contact textarea:focus,
 form.contact input:focus {
     box-shadow: 0 0 3px #000000;
     outline: none;
@@ -184,4 +186,8 @@ form.contact button:hover {
 
 .header .logo {
     height: 100px;
+}
+
+form.contact textarea {
+    text-transform: capitalize;
 }
