@@ -101,6 +101,7 @@ body {
 .mainmenu li {
     float: left;
     margin-right: 25px;
+    line-height: 65px;
 }
 
 .mainmenu li a {
@@ -159,4 +160,18 @@ form.contact button {
 form.contact button:hover {
     background-color: #222222;
     color: #ffffff;
+}
+
+.header {
+    height: 100px;
+    overflow: hidden;
+}
+
+.header > * {
+    display: block;
+    float: left;
+}
+
+.header .logo {
+    height: 100px;
 }
