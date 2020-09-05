@@ -116,3 +116,47 @@ body {
     color: #000000;
     text-decoration: none;
 }
+
+form.contact {
+    overflow: hidden;
+    padding: 0;
+    width: 500px;
+    margin: 0 auto;
+    max-width: 90%;
+    text-align: center;
+}
+
+form.contact input {
+    display: block;
+    width: 90%;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    line-height: 32px;
+    font-size: 16px;
+    padding: 0 15px;
+    border-radius: 10px;
+    margin: 3px auto 10px auto;
+}
+
+form.contact input:focus {
+    box-shadow: 0 0 3px #000000;
+    outline: none;
+}
+
+form.contact button {
+    display: inline-block;
+    font-size: 21px;
+    line-height: 32px;
+    border: none;
+    padding: 0 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #bbbbbb;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+form.contact button:hover {
+    background-color: #222222;
+    color: #ffffff;
+}
