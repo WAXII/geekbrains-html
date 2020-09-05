@@ -144,6 +144,16 @@ form.contact input:focus {
     outline: none;
 }
 
+form.contact input[type="email"] {
+    color: #444444;
+    background-color: #eeeeee;
+}
+
+form.contact input[type="email"]:focus {
+    color: #000000;
+    background-color: #ffffff;
+}
+
 form.contact button {
     display: inline-block;
     font-size: 21px;
