@@ -36,6 +36,7 @@
     width: 200px;
     height: 230px;
 }
+.product-page .pagename,
 .list a span {
     background-color: #eaeaea;
     font-weight:400;
@@ -48,6 +49,7 @@
     height: 200px;
 }
 
+.product-page .shortdescr p,
 .list p {
     width: 200px;
     margin: 0 auto;
@@ -56,6 +58,35 @@
     color: #707070;
     font-style: italic;
     line-height: 16px;
+}
+
+.product-page .shortdescr p {
+    width: auto;
+    margin: 0;
+}
+
+.product-page .fulldescr {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.product-page .properties {
+    list-style: none;
+    background-color: #aaaaaa;
+    padding: 2px 0;
+}
+
+.product-page .properties li {
+    padding: 2px 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.product-page .properties li:last-child {
+    border-bottom: none;
 }
 
 body {
